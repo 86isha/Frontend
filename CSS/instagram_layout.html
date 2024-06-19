@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .menu{
+            width: 17%;
+            border-right: 1px solid #eee;
+            padding: 20px;  
+        }
+        .logo img{
+            width: 150px;
+        }
+        .logo{
+            position: relative;
+        }
+        .list ul li span {
+            margin: 0px;
+            font-size: 22px;
+        }
+        .list ul{
+            padding: 0px 10px;
+        }
+        .list ul li {
+            margin: 30px 0px;
+            list-style: none;
+        }
+        .profileimg img{
+            width: 28px;
+            border-radius: 50px;
+        }
+        .profiletext{
+            position: relative;
+            bottom: 10px;
+        }
+        .more span{
+            margin: 0px 8px;
+            font-size: 22px;
+        }
+        @media (max-width:1200px){
+            .list ul li span:nth-child(2){
+                display: none;
+            }
+            .menu{
+                width: 10%;
+                min-width: 100px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <div class="logo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjtjBw4xwF01ZdKL1cmnYZD3vdavlQPOWA7w&s" alt=""> </div>
+        <div class="list">
+            <ul>
+                <li>
+                    <span><i class="fa-solid fa-house"></i></span>
+                    <span>Home</span>
+                </li>
+                <li>
+                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <span>Search</span>
+                </li>
+                <li>
+                    <span><i class="fa-regular fa-compass"></i></span>
+                    <span>Explore</span>
+                </li>
+                <li>
+                    <span><i class="fa-regular fa-camera"></i></span>
+                    <span>Reels</span>
+                </li>
+                <li>
+                    <span><i class="fa-regular fa-message"></i></span>
+                    <span>Messages</span>
+                </li>
+                <li>
+                    <span><i class="fa-regular fa-heart"></i></span>
+                    <span>Notification</span>
+                </li>
+                <li>
+                    <span><i class="fa-regular fa-square-plus"></i></span>
+                    <span>Create</span>
+                </li>
+                <li>
+                    <span class="profileimg"><img src="71NKBGaBbTL._AC_UF894,1000_QL80_.jpg" alt=""></span>
+                    <span class="profiletext">Profile</span>
+                </li>
+            </ul>
+        </div>
+        <div class="more">
+            <span class="moreicon"><i class="fa-solid fa-bars"></i></span>
+            <span class="moretext">More</span>
+        </div>
+    </div>
+</body>
+</html>
