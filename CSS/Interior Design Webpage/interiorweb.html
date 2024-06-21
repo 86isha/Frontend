@@ -64,7 +64,7 @@
             border-width: 5px;
         }
         .line{
-            border: 5px solid red;
+            border: 5px solid #f44336;
             width: 50px;
             border-radius: 4px;
             margin-top: 20px;
@@ -84,6 +84,10 @@
         .showimg img{
             width: 100%;
             height: 100%; 
+            opacity: 0.8;
+        }
+        .showimg img:hover{
+            opacity: 1;
         }
         .service{
             margin-top: 60px;
@@ -112,6 +116,7 @@
         }
         .person img{
             width: 100%;
+            filter: grayscale(75%);
         }
         .persontext{
             font-family: "Poppins", sans-serif;
@@ -177,15 +182,24 @@
         .sign{
             padding: 10px 20px;
         }
+        a{
+            text-decoration: none;
+
+        }
+        .last span:hover{
+            background-color: black !important;
+            color: white !important;
+        }
         .last{
             padding: 35px 0px !important;
         }
         #up1{
             background-color: white;
+            color: black;
         }
         #up2{
             background-color: red;
-            color: white;
+            color: white !important;
         }
         .contact{
             margin-top: 60px;
@@ -204,14 +218,14 @@
         .form input{
             padding: 10px 15px;
             border: 1px rgb(176, 175, 175) solid;
-            width: 100%;
+            width: 96%;
         }
         .button{
             font-size: 15px;
             background-color: red;
             color: rgb(241, 237, 237);
             padding: 15px !important;
-            width: 100% !important;
+            width: 99% !important;
             border: none;
             display: block;
         }
